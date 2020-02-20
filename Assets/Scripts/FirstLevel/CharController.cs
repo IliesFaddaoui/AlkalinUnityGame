@@ -13,7 +13,10 @@ public class CharController : MonoBehaviour
     public bool isOnGround = true;
     public int limitedJumps;
     public int score =0;
-    public int scoreGoal = 100;
+    public int scoreGoal = 500;
+    public int min =0;
+    public int sec =0;
+    float time;
 
     void Start()
     {
@@ -28,6 +31,9 @@ public class CharController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        time = Time.time;
+        min = Mathf.RoundToInt(time / 60);
+        sec = Mathf.RoundToInt(time % 60);
         if (Input.anyKey)
         {
             Move();
@@ -72,11 +78,10 @@ public class CharController : MonoBehaviour
         return limitedJumps;
     }
 
-    public int getScore()
-    {
-        return score;
-    }
-
     public void setScore(int newScore) => score = newScore;
+
+    public void setSec(int newSec) => sec = newSec;
+
+    public void setMin(int newMin) => min = newMin;
 
 }

@@ -32,7 +32,7 @@ public class RotatingCoin : MonoBehaviour
             GameObject player = GameObject.Find("Cube");
             Destroy(coin);
             CharController characterController = player.GetComponent<CharController>();
-            int score = characterController.getScore();
+            int score = characterController.score;
             characterController.setScore(score + 10);
         }
     }

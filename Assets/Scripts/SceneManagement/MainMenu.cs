@@ -10,7 +10,6 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-
     public void FromMenuToPlayPlanet()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
@@ -18,6 +17,7 @@ public class MainMenu : MonoBehaviour
     public void ReturnMenu()
     {
         SceneManager.LoadScene(0);
+     
     }
     public void QuitGame()
     {

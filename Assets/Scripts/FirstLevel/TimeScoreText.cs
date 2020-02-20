@@ -6,6 +6,8 @@ public class TimeScoreText : MonoBehaviour
 {
     Text info;
     int score = 0;
+    int min = 0;
+    int sec = 0;
     float time;
     // Start is called before the first frame update
     void Start()
@@ -19,14 +21,14 @@ public class TimeScoreText : MonoBehaviour
         GameObject player = GameObject.Find("Cube");
         if(player != null)
         {
+
             CharController characterController = player.GetComponent<CharController>();
-            score = characterController.getScore();
+            score = characterController.score;
             time = Time.time;
-            int min = Mathf.FloorToInt(time / 60);
-            print("min: " + min);
-            int sec = Mathf.FloorToInt(time % 60);
-            print("sec: " + sec);
-            info.text = min.ToString("00") + ":" + sec.ToString("00") +" \n Score:" + score;
+            min = characterController.min;
+            sec = characterController.sec;
+            info.text = min.ToString("00") + ":" + sec.ToString("00") +" \n Score:"
+                + score;
         }
     }
 }

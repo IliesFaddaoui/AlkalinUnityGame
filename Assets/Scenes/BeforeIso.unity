@@ -374,6 +374,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: NextSceneButton
       objectReference: {fileID: 0}
+    - target: {fileID: 5726118616217749395, guid: fba92f71460164f8491fb49591b76066,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -281
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726118616217749395, guid: fba92f71460164f8491fb49591b76066,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 177
+      objectReference: {fileID: 0}
     - target: {fileID: 5726118616239227746, guid: fba92f71460164f8491fb49591b76066,
         type: 3}
       propertyPath: m_Name
@@ -483,6 +493,70 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726118617140878776, guid: fba92f71460164f8491fb49591b76066,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -733.3619
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726118617140878776, guid: fba92f71460164f8491fb49591b76066,
+        type: 3}
+      propertyPath: m_margin.w
+      value: -242.22269
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726118617140878776, guid: fba92f71460164f8491fb49591b76066,
+        type: 3}
+      propertyPath: m_text
+      value: 'Unito is a cube having a terrible issue: He attracts particles which
+        can kill him instantly. His only hope is to find enough coins to go to find
+        a new planet... (like 500 coins).
+
+
+        Help him to run out this place
+        !!
+
+        ( press space to jump but be careful ! unito can only jump 3
+        times )'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726118617140878776, guid: fba92f71460164f8491fb49591b76066,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 282
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726118617140878776, guid: fba92f71460164f8491fb49591b76066,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726118617140878776, guid: fba92f71460164f8491fb49591b76066,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726118617140878776, guid: fba92f71460164f8491fb49591b76066,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726118617140878776, guid: fba92f71460164f8491fb49591b76066,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726118617140878776, guid: fba92f71460164f8491fb49591b76066,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 31.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726118617140878776, guid: fba92f71460164f8491fb49591b76066,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 31.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726118617140878777, guid: fba92f71460164f8491fb49591b76066,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 367
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fba92f71460164f8491fb49591b76066, type: 3}
