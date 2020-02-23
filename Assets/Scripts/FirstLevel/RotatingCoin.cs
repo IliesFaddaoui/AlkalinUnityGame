@@ -22,7 +22,10 @@ public class RotatingCoin : MonoBehaviour
     void Update()
     {
         coin.transform.Rotate(new Vector3(0, 0, Time.deltaTime * rotationSpeed *10));
-        Destroy(coin, lifeTime);
+        if(lifeTime != 0)
+        {
+            Destroy(coin, lifeTime);
+        }
     }
 
     private void OnCollisionEnter(Collision collision)

@@ -9,6 +9,7 @@ public class FollowChar : MonoBehaviour
     public float moveSpeed = 10.0f;
     public float EPSILON = 0.1f;
     public NavMeshAgent meshAgent;
+    public bool killCube = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,7 +43,7 @@ public class FollowChar : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "Cube")
+        if (collision.gameObject.name == "Cube" && killCube)
         {
             Destroy(collision.gameObject);
 
